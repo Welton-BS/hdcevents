@@ -6,6 +6,8 @@
 
         <title>@yield('title')</title>
 
+        <link rel="shortcut icon" href="/img/logo-white.svg" type="image/x-icon">
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
 
@@ -31,7 +33,7 @@
                             <a href="/" class="nav-link">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/" class="nav-link">Criar Evento</a>
+                            <a href="/events/create" class="nav-link">Criar Evento</a>
                         </li>
                         <li class="nav-item">
                             <a href="/" class="nav-link">Entrar</a>
@@ -47,5 +49,9 @@
     @yield('content')
 
     <footer>DHC Events &copy; 2022</footer>
+
+    <!-- IonIcons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
