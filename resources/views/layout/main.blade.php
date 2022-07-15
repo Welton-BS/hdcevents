@@ -48,7 +48,18 @@
 
     @yield('content')
 
-    <footer>DHC Events &copy; 2022</footer>
+    <footer>    
+        <p>
+            DHC Events &copy; 2022
+        </p>
+
+        <p>
+            By <a href="https://github.com/weltonam" target="_blanket">WeltonMatosDev</a>
+        </p>
+        <p>
+            In <a href="https://www.horadecodar.com.br/cursos-horadecodar/" target="_blanket">Hora De Cordar</a>
+        </p>
+    </footer>
 
     <!-- IonIcons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
