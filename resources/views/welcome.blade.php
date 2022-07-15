@@ -1,22 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.main')
 
-        <title>Laravel</title>
+@section('title', 'HDC Events')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+@section('content')
 
-        <!-- Styles -->
-        <link rel="stylesheet" href="/css/styles.css">
+<h1>Início</h1>
 
-        <!-- Scripts -->
-        <script src="/js/scripts.js"></script>
-
-    </head>
-    <body class="antialiased">
-        <h1>Início</h1>
-    </body>
-</html>
+@endsection
